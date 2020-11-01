@@ -1,8 +1,8 @@
-# AppleONE
+# SwiftUI  ONE Enrolling view
 
-SwiftUI recreation of Apple One enrolling view.
+SwiftUI recreation of Apple One enrolling view, adding a extra animation for the services icons.
 
-![](https://github.com/darioGzlez/AppleONE/blob/main/promo/action.gif?raw=true)
+<img src="https://github.com/darioGzlez/AppleONE/blob/main/promo/action.gif?raw=tru" width="350">
 
 Light mode             |  Dark mode
 :-------------------------:|:-------------------------:
