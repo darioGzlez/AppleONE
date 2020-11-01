@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showSheet = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        AppleOneView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .preferredColorScheme(.dark)
+            ContentView()
+                .preferredColorScheme(.light)
+        }
     }
 }
